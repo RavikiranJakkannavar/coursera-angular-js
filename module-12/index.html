@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app="MsgApp">
+  <head>
+    <script src="../angular/angular.min.js"></script>
+    <script src="app.js"></script>
+    <meta charset="utf-8">
+    <title>Expression and interpolation</title>
+  </head>
+  <body>
+
+<div class="" ng-controller="MsgController">
+  Message is : {{name}}
+  <br>
+  {{MyMessage()}}
+  <br>
+    <br>
+      <br>
+  <button type="button" ng-click="dispalyLanguage()" name="button">Change Language</button>  <br>
+     <br><img ng-src="../images/lang_{{changeLang}}.jpg">
+
+</div>
+
+  </body>
+</html>
